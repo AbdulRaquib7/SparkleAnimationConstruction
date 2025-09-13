@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Contact — SPARKE Constructions</title>
+    <meta name="description" content="Contact SPARKE Constructions for quotes, project enquiries, or partnerships." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">▮</span>
+          <span class="brand-text">SPARKE Constructions</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active btn btn-accent">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section page-hero">
+        <div class="container">
+          <h1>Contact</h1>
+          <p>Tell us about your project. We’ll get back to you within 1–2 business days.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container grid two">
+          <form class="surface card form" id="contactForm" action="mailto:info@sparke.example" method="post" enctype="text/plain">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Send</button>
+              <p class="form-note">Submitting opens your email client. For a hosted form backend, replace the action URL.</p>
+            </div>
+          </form>
+          <aside>
+            <div class="surface card">
+              <h2>Details</h2>
+              <p><strong>Email:</strong> info@sparke.example</p>
+              <p><strong>Phone:</strong> (000) 000 000</p>
+              <p><strong>Address:</strong> 1 Builder St, Construct City</p>
+            </div>
+            <div class="surface card">
+              <h2>Hours</h2>
+              <p>Mon–Fri: 8:00 am – 5:00 pm</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <div class="brand as-footer">SPARKE Constructions</div>
+          <p>ABN 00 000 000 000</p>
+        </div>
+        <div class="footer-links">
+          <nav aria-label="Footer">
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-meta">
+          <p>© <span id="year"></span> SPARKE Constructions. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>
+
